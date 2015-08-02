@@ -109,7 +109,7 @@ object Dependencies {
   val commonsIO = "org.apache.commons" % "commons-io" % "1.3.2"
   val commonsHttp = "org.apache.httpcomponents" % "httpclient" % "4.3.4" excludeAll ExclusionRule("com.google.guava")
   val commonsExec = "org.apache.commons" % "commons-exec" % "1.3" force()
-  val commonsCodec = "commons-codec" % "commons-codec" % "1.10" force()
+  val commonsCodec = "commons-codec" % "commons-codec" % "1.6" force()
   val guava = "com.google.guava" % "guava" % "14.0.1" force()
   val slf4jLog4j = "org.slf4j" % "slf4j-log4j12" % "1.7.7"
   val log4j = "log4j" % "log4j" % "1.2.17"
